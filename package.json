@@ -1,0 +1,21 @@
+{
+  "name": "api-express",
+  "version": "0.1.0",
+  "description": "API com express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/dev",
+    "start": "node ./src/index"
+  },
+  "keywords": [],
+  "author": "Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
