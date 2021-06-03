@@ -1,5 +1,14 @@
 'use strict'
 
-process.env.PORT = 3000
+const setup = require('./modules/config')
 
-require('./index')
+require('dotenv').config()
+
+const checkSetup = () => {
+  setup()
+  setTimeout(() => {
+    require('./index')
+  }, 3000)
+}
+
+checkSetup()
